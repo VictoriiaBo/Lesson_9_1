@@ -1,0 +1,119 @@
+@import "nule.css";
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+}
+.strawberry{
+   max-height: 400px;
+	margin-left: 500px;
+	margin: 0px 0px 0px 600px;
+}
+.game {
+	max-width: 1000px;
+	min-height: 700px;
+}
+.remi{
+	max-height: 250px;
+}
+.line1 {
+	max-width: 50px;
+	min-height: 50px;
+	background-color: deepskyblue;
+	margin: 0px 0px 0px 150px;
+	cursor: url(../img/kursor_n.png), pointer;
+}
+.line2{
+	max-width: 310px;
+	min-height: 50px;
+	background-color: deepskyblue;
+   margin: 0px 0px 0px 150px;
+	visibility: hidden;
+	cursor: url(../img/kursor_p.png), pointer;
+}
+.line1:hover+.line2, .line2:hover{
+	visibility: visible;
+}
+.line3{
+	max-width: 40px;
+	min-height: 170px;
+	background-color:deepskyblue;
+	margin: -50px 0px 0px 460px;
+	visibility: hidden;
+	cursor: url(../img/kursor_n.png), pointer;
+}
+.line2:hover+.line3, .line3:hover{
+	visibility: visible;
+}
+.line4{
+	min-height: 40px;
+	max-width: 165px;
+	background-color: deepskyblue;
+	margin: 0px 0px 0px 335px;
+	visibility: hidden;
+	cursor: url(../img/kursor_l.png), pointer;
+}
+.line3:hover+.line4, .line4:hover{
+	visibility: visible;
+}
+.line5{
+	max-width: 35px;
+	min-height: 140px;
+	background-color:deepskyblue;
+	margin: -40px 0px 0px 300px;
+	visibility: hidden;
+	cursor: url(../img/kursor_n.png), pointer;
+}
+.line4:hover+.line5, .line5:hover{
+	visibility: visible;
+}
+.line6{
+	min-height:35px;
+	max-width: 432px;
+	background-color: deepskyblue;
+	margin: 0px 0px 0px 300px;
+	visibility: hidden;
+	cursor: url(../img/kursor_p.png), pointer;
+}
+.line5:hover+.line6, .line6:hover{
+	visibility: visible;
+}
+.line7{
+	min-height: 160px;
+	max-width: 33px;
+	background-color:deepskyblue;
+	margin: -35px 0px 0px 732px;
+	visibility: hidden;
+	cursor: url(../img/kursor_n.png), pointer;
+}
+.line6:hover+.line7, .line7:hover{
+	visibility: visible;
+}
+.line8{
+	min-height: 33px;
+	max-width: 33px;
+	background-color:deepskyblue;
+	margin: 0px 0px 0px 732px;
+	visibility: hidden;
+	cursor: url(../img/kursor_n.png), pointer;
+}
+.line7:hover+.line8, .line8:hover{
+	visibility: visible;
+}
+.line9{
+	min-height: 212px;
+	max-width: 500px;
+	margin: 0px 0px 0px 500px;
+	visibility: visible;
+	background: url(../img/klubnika.jpg) no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-size: contain;
+	background-position: center;
+	visibility: visible;
+	pointer-events: none;
+}
+.line8:hover+.line9, .line9:hover{
+	visibility: visible;
+   background: url(../img/vnH.gif);
+	pointer-events: auto;
+}
